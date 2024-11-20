@@ -12,7 +12,7 @@ export default function Home({ searchParams }: SearchParamProps) {
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[496px]">
           <Image
-            src="/assets/icons/logo-full.svg"
+            src="/assets/icons/logo.png"
             height={1000}
             width={1000}
             alt="patient"
@@ -23,7 +23,7 @@ export default function Home({ searchParams }: SearchParamProps) {
 
           <div className="text-14-regular mt-20 flex justify-between">
             <p className="justify-items-end text-dark-600 xl:text-left">
-              © 2024 CarePulse
+              © 2024 Healio
             </p>
             <Link href="/?admin=true" className="text-green-500">
               Admin
@@ -33,7 +33,7 @@ export default function Home({ searchParams }: SearchParamProps) {
       </section>
 
       <Image
-        src="/assets/images/onboarding-img.png"
+        src="/assets/images/onboarding-min.jpg"
         height={1000}
         width={1000}
         alt="patient"

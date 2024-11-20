@@ -23,7 +23,7 @@ const Success = async ({
       <div className="success-img">
         <Link href="/">
           <Image
-            src="/assets/icons/logo-full.svg"
+            src="/assets/icons/logo.png"
             height={1000}
             width={1000}
             alt="logo"
@@ -73,7 +73,7 @@ const Success = async ({
           </Link>
         </Button>
 
-        <p className="copyright">&copy; 2024 CarePulse</p>
+        <p className="copyright">&copy; 2024 Healio</p>
       </div>
     </div>
   );
